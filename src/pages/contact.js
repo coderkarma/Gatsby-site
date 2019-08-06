@@ -1,9 +1,10 @@
 import React from 'react';
+import Layout from '../components/layout';
 import Footer from '../components/footer';
 
 const ContactPage = () => {
 	return (
-		<div>
+		<Layout>
 			<h1>Contact Page</h1>
 
 			<p>
@@ -14,7 +15,7 @@ const ContactPage = () => {
 				on Twitter
 			</p>
 			<Footer />
-		</div>
+		</Layout>
 	);
 };
 
