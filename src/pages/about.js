@@ -7,10 +7,10 @@ const AboutPage = () => {
 		<Layout>
 			<h1>About me</h1>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				Officiis magni doloribus asperiores sapiente et earum tempore
-				nostrum possimus quia cumque ullam, iusto velit ipsa ratione
-				autem! Repellat odio fugiat repudiandae.
+				I am a self-taught developer. My passion for programming began
+				when I was taking cybersecurity classes. My hunger for learning
+				hasn't stopped since then. I love solving problems and bringing
+				creativity, innovation, and a unique perspective to a team.
 			</p>
 
 			<p>

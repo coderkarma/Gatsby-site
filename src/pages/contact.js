@@ -9,12 +9,10 @@ const ContactPage = () => {
 
 			<p>
 				best way to reach out
-				<a href='https://twitter.com/karmadrukpa22' target='_blank'>
+				  <a href='https://twitter.com/karmadrukpa22' target='_blank'>
 					Twitter
 				</a>
-				on Twitter
 			</p>
-			<Footer />
 		</Layout>
 	);
 };

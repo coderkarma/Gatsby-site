@@ -3,7 +3,9 @@ title: "Gatsby Greatness"
 date: "2019-08-07"
 ---
 
-Gatsby is great to play with if you want to build fast site!
+Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps
+
+![Grass](./grass.jpeg)
 
 ## Topics Covered
 
