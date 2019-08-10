@@ -10,12 +10,18 @@ module.exports = {
     title: 'Front End Web Developer!',
     author: 'Karma Drukpa'
   },
-  plugins: [
+  plugins: [{
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      }
+    },
     'gatsby-plugin-sass',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "src",
+        name: 'src',
         path: `${__dirname}/src/`
       }
     },
@@ -24,7 +30,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          "gatsby-remark-relative-images",
+          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -35,6 +41,5 @@ module.exports = {
         ]
       }
     }
-
   ]
-}
+};
